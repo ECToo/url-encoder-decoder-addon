@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <textarea id='url1' placeholder="Plain (Decoded) Text"></textarea> <br/>
+        <div class="indicatorContainer">
+            <span id='encoded' class='indicator'>&darr; Encoded &darr;</span>
+            <span id='decoded' class='indicator'>&uarr; Decoded &uarr;</span> <br/>
+        </div>
+        <textarea id='url2' placeholder="Encoded Text"></textarea> <br/>
+        <div class="options">
+            Options:
+                <span class="en">
+                    <input type="radio" id='encodeURIType' name="enType" checked> encodeURI
+                    <input type="radio" id='encodeURIComponentType' name="enType"> encodeURIComponent
+                </span>
+                <br/>
+                <span class="de">
+                    <input type="radio" id='decodeURIType' name="deType" checked> decodeURI
+                    <input type="radio" id='decodeURIComponentType' name="deType"> decodeURIComponent
+                </span>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
